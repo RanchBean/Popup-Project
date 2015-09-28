@@ -13,14 +13,28 @@ public class PopupController
 	
 	public void start()
 	{
-		String temp = myPopups.getAnswer("Type in your name");
+		String name = myPopups.getAnswer("Type in your name");
 		
-		myPopups.displayResponse("You typed in " + temp);
+		myPopups.displayResponse("You typed in " + name);
+		
+		int age;
+		String tempAge = myPopups.getAnswer("You typed in " + name);
+		
+		age = Integer.parseInt(tempAge);
+		
+		myPopups.displayResponse("You typed in " + age);
+		
+		double weight;
+		String tempWeight = myPopups.getAnswer("Type in your weight");
+		weight = Double.parseDouble(tempWeight);
+		
+		mypopups
+		
 	}
 
 	{
 		
-	priavte boolean isDouble(String input)
+	private boolean isDouble(String input)
 	}
 		boolean isDouble = false;
 		
